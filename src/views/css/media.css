@@ -1,0 +1,223 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+ @media (max-width: 575.98px) { 
+ 	/*header start*/
+ 	.top_contact ul li{
+ 		padding-right: 3px;
+ 	}
+ 	.top_contact ul li:first-child{
+ 		border-right: none;
+ 	}
+ 	.top_social_icon{
+ 		text-align: center !important;
+
+ 	}
+ 	.banner_head{
+ 		padding: 100px 0;
+ 		text-align: center;
+ 	}
+ 	.banner_head h2 {
+ 		font-size: 32px;
+ 	}
+ 	.menu{
+ 		position: fixed;
+ 		top: 77px;
+ 		bottom: 0;
+ 		width: 70%;
+ 		transform: translateX(-200%);
+ 		transition: all ease .5s;
+ 		color: white;
+ 		background-color: rgba(0,0,0,0.9);
+ 	}
+ 	.menu ul li a {
+	    color: #ffffff;
+	}
+	.menu ul li a::after {
+		background: white;
+		margin-left: 25%;
+	}
+	.menu ul li a:hover::after{
+		width: 50%;
+		margin-left: 25%;
+	}
+ 	.open{
+ 		transform: translateX(0);
+ 	}
+ 	.overlay{
+ 		position: fixed;
+ 		top: 0;
+ 		bottom: 0;
+ 		left: 0;
+ 		right: 0;
+ 		background-color: rgba(0,0,0,0.9);
+ 		display: none;
+ 		transition: 1s;
+ 	}
+ 	.open{
+ 		display: block;
+ 	}
+ 	.navbar-nav{
+ 		overflow-y: auto;
+ 	}
+ 	.e_dropdown {
+ 		overflow-y: auto;
+ 		text-align: center;
+ 	}
+ 	.e_dropdown a{
+ 		padding: 5px;
+ 	}
+ 	.s_dropdown_menu input{
+ 		width: 80%;
+ 	}
+ 	.c_button_menu a{
+ 		text-align: center;
+ 	}
+ 	.cart_badge {
+ 		top: 0%;
+ 		right: 38%;
+ 	}
+ 	.logo{
+ 		padding: 20px 0;
+ 	}
+ 	.m-nav {
+ 		padding: 20px 0;
+ 		width: 100%;
+ 		text-align: center;
+ 	}
+ 	/*header end*/
+ 	/*best sell section start*/
+ 	.best_sell_box{
+		margin-top: 0;
+		text-align: center;
+	}
+ 	/*best sell section end*/
+ 	/*discount section start*/
+ 	.dis_img{
+ 		margin-top: 30px;
+ 	}
+ 	/*discount section end*/
+ 	/*footer section start*/
+ 	.f_wrapper{
+ 		text-align: center;
+ 	}
+ 	.t_f_icon ul li {
+	    padding-left: 25px;
+	}
+ 	.f_b_left p{
+ 		text-align: center;
+ 	}
+ 	/*footer section end*/
+ }
+
+ /*Small devices (landscape phones, 576px and up)*/
+ @media (min-width: 576px) and (max-width: 767.98px) { 
+ 	.menu{
+ 		position: fixed;
+ 		top: 70px;
+ 		bottom: 0;
+ 		width: 50%;
+ 		transform: translateX(-200%);
+ 		transition: all ease .5s;
+ 		color: white;
+ 		background-color: rgba(0,0,0,0.9);
+ 	}
+ 	.menu ul li a {
+	    color: #ffffff;
+	}
+	.menu ul li a::after {
+		background: white;
+	}
+ 	.open{
+ 		transform: translateX(0);
+ 	}
+ 	.e_dropdown {
+ 		text-align: center;
+
+ 	}
+ 	.u_button_menu a{
+ 		text-align: center;
+ 	}
+ 	.navbar-nav{
+ 		overflow-y: auto;
+ 	}
+ 	.e_dropdown a{
+ 		padding: 5px;
+ 	}
+ 	.cart_badge {
+ 		top: 0%;
+ 		right: 42%;
+ 	}
+ 	/*best sell section start*/
+ 	.best_sell_box{
+		margin-top: 0;
+		text-align: center;
+	}
+ 	/*best sell section end*/
+ 	.c_b_1{
+ 		margin-top: 20px;
+ 	}
+ 	.dis_img{
+ 		margin-top: 50px;
+ 	}
+ 	/*footer section start*/
+ 	.f_b_left p{
+ 		text-align: center;
+ 	}
+ 	/*footer section end*/
+ }
+
+ /*Medium devices (tablets, 768px and up)*/
+ @media (min-width: 768px) and (max-width: 991.98px) { 
+ 	.menu{
+ 		position: fixed;
+ 		top: 70px;
+ 		bottom: 0;
+ 		width: 50%;
+ 		transform: translateX(-200%);
+ 		transition: all ease .5s;
+ 		color: white;
+ 		background-color: rgba(0,0,0,0.9);
+
+ 	}
+ 	.menu ul li a {
+	    color: #ffffff;
+	}
+	.menu ul li a::after {
+		background: white;
+	}
+ 	.open{
+ 		transform: translateX(0);
+ 	}
+ 	.e_dropdown {
+ 		text-align: center;
+ 	}
+ 	.e_dropdown a{
+ 		padding: 5px;
+ 	}
+ 	.c_button_menu a{
+ 		text-align: center;
+ 	}
+ 	.s_dropdown_menu input{
+ 		width: 80%;
+ 	}
+ 	.navbar-nav{
+ 		overflow-y: auto;
+ 	}
+ 	.cart_badge {
+ 		top: 0%;
+ 		right: 42%;
+ 	}
+ 	/*best sell section start*/
+ 	.best_sell_box{
+		margin-top: 0;
+		text-align: center;
+	}
+ 	/*best sell section end*/
+ }
+
+ /*Large devices (desktops, 992px and up)*/
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+ }
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+ @media (min-width: 1200px) { 
+ }
